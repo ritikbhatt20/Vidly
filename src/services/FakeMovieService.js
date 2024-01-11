@@ -1,209 +1,72 @@
 const movies = [
     {
-        _id: 1,
-        title: "Terminator",
-        genre: {name: "Action", _id: 1},
-        numberInStock: 6,
-        dailyRentalRate: 2.5,
+      _id: "5b21ca3eeb7f6fbccd471815",
+      title: "Terminator",
+      genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+      numberInStock: 6,
+      dailyRentalRate: 2.5,
+      publishDate: "2018-01-03T19:04:28.809Z"
     },
     {
-        _id: 2,
-        title: "Michael",
-        genre: {name: "Comedy", _id: 2},
-        numberInStock: 5,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd471816",
+      title: "Die Hard",
+      genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+      numberInStock: 5,
+      dailyRentalRate: 2.5
     },
     {
-        _id: 3,
-        title: "Inception",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 2,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd471817",
+      title: "Get Out",
+      genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+      numberInStock: 8,
+      dailyRentalRate: 3.5
     },
     {
-        _id: 4,
-        title: "Aviator",
-        genre: {name: "Action", _id: 1},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd471819",
+      title: "Trip to Italy",
+      genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+      numberInStock: 7,
+      dailyRentalRate: 3.5
     },
     {
-        _id: 5,
-        title: "Prince of Persia",
-        genre: {name: "Action", _id: 1},
-        numberInStock: 1,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd47181a",
+      title: "Airplane",
+      genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+      numberInStock: 7,
+      dailyRentalRate: 3.5
     },
     {
-        _id: 6,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd47181b",
+      title: "Wedding Crashers",
+      genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+      numberInStock: 7,
+      dailyRentalRate: 3.5
     },
     {
-        _id: 7,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd47181e",
+      title: "Gone Girl",
+      genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+      numberInStock: 7,
+      dailyRentalRate: 4.5
     },
     {
-        _id: 8,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
+      _id: "5b21ca3eeb7f6fbccd47181f",
+      title: "The Sixth Sense",
+      genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+      numberInStock: 4,
+      dailyRentalRate: 3.5
     },
     {
-        _id: 9,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 10,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 11,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 12,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 13,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 14,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 15,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 16,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 17,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 18,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 19,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 20,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 21,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 22,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 23,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 24,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 25,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 26,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 27,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 28,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-    {
-        _id: 29,
-        title: "Aviator",
-        genre: {name: "Thriller", _id: 3},
-        numberInStock: 7,
-        dailyRentalRate: 2.5
-    },
-]
-
-export function getMovies(){
-    return movies
-}
+      _id: "5b21ca3eeb7f6fbccd471821",
+      title: "The Avengers",
+      genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+      numberInStock: 7,
+      dailyRentalRate: 3.5
+    }
+  ];
+  
+  export function getMovies() {
+    return movies;
+  }
+  
+  
