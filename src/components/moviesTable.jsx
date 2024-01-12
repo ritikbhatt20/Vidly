@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Like from "./common/like";
-import TableHeader from "./common/tableHeader";
-import TableBody from "./common/tableBody";
+import Table from "./common/table";
 
 class MoviesTable extends Component {
   // here we are passing columns as property and not in the state because its state is not gonna change throughout the lifecycle of this component
@@ -32,14 +31,12 @@ class MoviesTable extends Component {
   render() {
     const { movies, onLike, onDelete, onSort, sortColumn } = this.props;
     return (
-      <table className="table">
-        <TableHeader
-          columns={this.columns}
-          sortColumn={sortColumn}
-          onSort={onSort}
-        ></TableHeader>
-        <TableBody data={movies} columns={this.columns}></TableBody>
-      </table>
+      <Table
+        columns={this.columns}
+        data={movies}
+        sortColumn={sortColumn}
+        onSort={onSort}
+      />
     );
   }
 }
