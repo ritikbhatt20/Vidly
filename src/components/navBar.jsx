@@ -3,7 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav style={{ paddingBottom: 30 }} className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      style={{ marginBottom: 30 }}
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
       <Link className="navbar-brand" to="#">
         Vidly
       </Link>
